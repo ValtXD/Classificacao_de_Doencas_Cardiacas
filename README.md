@@ -173,6 +173,7 @@ O projeto pode ser executado em um ambiente Google Colab ou Jupyter Notebook.
 
 ## Acesso ao Projeto
 
-Este projeto foi desenvolvido em um **Jupyter Notebook** no Google Colab. Você pode acessar o código completo e a execução do modelo através do link abaixo (OBS: mas somente com o email institucional - @icomp.ufam.edu.br):
+Este projeto foi desenvolvido em um **Jupyter Notebook** no Google Colab. Você pode acessar o código completo e a execução do modelo através do link abaixo: 
+OBS: Acesso somente com o email institucional - @icomp.ufam.edu.br
 
 [**Abrir o Notebook no Google Colab**](https://colab.research.google.com/drive/1HaR_8N7j9LmBWzOcPY4oRs0OUv6btP0t?usp=sharing)
