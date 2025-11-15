@@ -108,7 +108,7 @@ O modelo demonstrou um **excelente desempenho** após o treinamento e avaliaçã
 
 ## Análise dos Resultados
 
-O modelo demonstrou performance válido, com acurácia quase perfeita no conjunto de teste, um resultado que supera as expectativas iniciais do projeto. A matriz de confusão revelou zero falsos positivos e zero falsos negativos entre as 205 amostras testadas, indicando uma capacidade de classificação aparentemente perfeita.
+O modelo demonstrou performance válido, com acurácia perfeita no conjunto de teste, um resultado que supera as expectativas iniciais do projeto. A matriz de confusão revelou zero falsos positivos e zero falsos negativos entre as 205 amostras testadas, indicando uma capacidade de classificação aparentemente perfeita.
 
 Aspectos Positivos Técnicos:
 A curva de aprendizado mostrou um comportamento ideal, com melhoria gradual e consistente tanto na acurácia de treino quanto na validação. A função de perda convergiu de forma estável, reduzindo de aproximadamente 0.78 para 0.024 ao longo do treinamento, sem apresentar oscilações significativas. As técnicas de regularização implementadas, especificamente as camadas de Dropout de 30% e 20% - demonstraram eficácia na prevenção de overfitting, mantendo as curvas de treino e validação próximas durante todo o processo. A arquitetura de rede neural com 3.521 parâmetros mostrou-se adequadamente dimensionada para a complexidade do problema.
