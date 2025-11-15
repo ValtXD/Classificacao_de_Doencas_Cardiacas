@@ -68,7 +68,6 @@ A Normalização é um passo crítico no pré-processamento, especialmente para 
 
 2.  **Tratamento Equitativo:** O `StandardScaler` garante que todas as *features* contribuam de forma **igual** para a perda. Ao transformar os dados para terem **média 0** e **desvio padrão 1**, evitamos que a Rede Neural dê uma importância desproporcional a *features* com valores numéricos maiores, garantindo que o aprendizado seja baseado na relevância estatística, e não na magnitude numérica.
 
-Em resumo, a normalização é essencial para fornecer uma **"superfície de perda"** mais suave e esférica para o otimizador, permitindo que o modelo treine de forma mais **rápida** e **eficaz**.
 ---
 
 ### Arquitetura da ANN
@@ -158,9 +157,6 @@ O projeto demonstra com sucesso a aplicação prática de redes neurais artifici
 Do ponto de vista técnico, o modelo alcançou resultados válidos, com 100% de acurácia, precisão e recall no conjunto de teste - um desempenho que supera as expectativas convencionais para problemas de classificação binária. A arquitetura de rede neural implementada, com suas camadas densas intercaladas com camadas de Dropout, mostrou-se adequadamente dimensionada e eficiente para a tarefa proposta.
 
 No entanto, é fundamental exercitar cautela científica ao interpretar esses resultados numericamente perfeitos. Na prática clínica real, a variabilidade biológica inerente aos pacientes, a presença de comorbidades complexas e a sobreposição de sintomas entre diferentes condições cardíacas tornam praticamente impossível alcançar acurácia absoluta. A performance impecável observada sugere que o dataset utilizado pode não capturar totalmente a complexidade e as nuances encontradas em ambientes hospitalares reais.
-
-#### Resumo da Análise e Pré-processamento
-A Análise Exploratória de Dados (EDA) revelou um dataset bem balanceado.
 
 ---
 
