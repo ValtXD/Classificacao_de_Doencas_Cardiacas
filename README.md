@@ -101,10 +101,10 @@ O modelo demonstrou um **excelente desempenho** após o treinamento e avaliaçã
 
 | Métrica de Desempenho | Valor no Conjunto de Teste |
 | :--- | :--- |
-| **Acurácia (Accuracy)** | **98.78%** |
-| **Precisão (Precision)** | **0.988** |
-| **Recall (Recall)** | **0.988** |
-| **Loss Final** | **0.025** |
+| **Acurácia (Accuracy)** | **100.00%** |
+| **Precisão (Precision)** | **100.00%** |
+| **Recall (Recall)** | **100.00%** |
+| **F1-Score** | **100.00%** |
 
 ## Análise dos Resultados
 
@@ -154,7 +154,7 @@ Não cometeu nenhum erro de diagnóstico
 
 O projeto demonstra com sucesso a aplicação prática de redes neurais artificiais para classificação de doenças cardíacas, servindo como um exemplo educacional valioso sobre todo o pipeline de machine learning, desde a análise exploratória inicial até a avaliação final do modelo. A implementação destacou de maneira clara a importância crítica da normalização de dados, uma vez que as variáveis clínicas apresentavam escalas significativamente diferentes (idade variando de 29-77 anos versus colesterol de 126-564 mg/dl), e comprovou a eficácia das técnicas de regularização como Dropout na prevenção de overfitting.
 
-Do ponto de vista técnico, o modelo alcançou resultados válidos, com 98% de acurácia, precisão e recall no conjunto de teste, um desempenho que supera as expectativas convencionais para problemas de classificação binária. A arquitetura de rede neural implementada, com suas camadas densas intercaladas com camadas de Dropout, mostrou-se adequadamente dimensionada e eficiente para a tarefa proposta.
+Do ponto de vista técnico, o modelo alcançou resultados válidos, com 100% de acurácia, precisão e recall no conjunto de teste, um desempenho que supera as expectativas convencionais para problemas de classificação binária. A arquitetura de rede neural implementada, com suas camadas densas intercaladas com camadas de Dropout, mostrou-se adequadamente dimensionada e eficiente para a tarefa proposta.
 
 No entanto, é fundamental exercitar cautela científica ao interpretar esses resultados numericamente perfeitos. Na prática clínica real, a variabilidade biológica inerente aos pacientes, a presença de comorbidades complexas e a sobreposição de sintomas entre diferentes condições cardíacas tornam praticamente impossível alcançar acurácia absoluta. A performance impecável observada sugere que o dataset utilizado pode não capturar totalmente a complexidade e as nuances encontradas em ambientes hospitalares reais.
 
