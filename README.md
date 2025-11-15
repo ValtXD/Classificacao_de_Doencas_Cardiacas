@@ -172,3 +172,11 @@ O projeto pode ser executado em um ambiente Google Colab ou Jupyter Notebook.
 2.  Abra o arquivo `Trabalho_IA.ipynb`.
 3.  Certifique-se de que o arquivo de dados `heart.csv` esteja acessível (via Google Drive ou upload local).
 4.  Execute todas as células do Notebook em ordem para visualizar a EDA, o treinamento do modelo e a avaliação final.
+
+---
+
+## Acesso ao Projeto
+
+Este projeto foi desenvolvido em um **Jupyter Notebook** no Google Colab. Você pode acessar o código completo e a execução do modelo através do link abaixo:
+
+[**Abrir o Notebook no Google Colab**](https://colab.research.google.com/drive/1HaR_8N7j9LmBWzOcPY4oRs0OUv6btP0t?usp=sharing)
